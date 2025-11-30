@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.test_lab_week_12"
+        applicationId = "com.example.lab_week_13"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -41,9 +41,11 @@ android {
 }
 
 dependencies {
-    implementation("androidx.room:room-runtime:2.4.3")
-    implementation("androidx.room:room-ktx:2.4.3")
-    kapt("androidx.room:room-compiler:2.4.3")
+    implementation("androidx.room:room-runtime:2.8.4")
+    implementation("androidx.room:room-ktx:2.8.4")
+    implementation("androidx.work:work-runtime-ktx:2.11.0")
+    implementation("androidx.room:room-paging-android:2.8.4")
+    kapt("androidx.room:room-compiler:2.8.4")
     implementation(libs.androidx.recyclerview)
     implementation(libs.glide)
     implementation(libs.retrofit)
