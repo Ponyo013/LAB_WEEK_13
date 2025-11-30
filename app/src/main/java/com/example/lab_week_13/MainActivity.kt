@@ -1,4 +1,4 @@
-package com.example.test_lab_week_12
+package com.example.lab_week_13
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,8 +7,8 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
-import com.example.test_lab_week_12.databinding.ActivityMainBinding
-import com.example.test_lab_week_12.model.Movie
+import com.example.lab_week_13.databinding.ActivityMainBinding
+import com.example.lab_week_13.model.Movie
 
 class MainActivity : AppCompatActivity() {
     private val movieAdapter by lazy {
